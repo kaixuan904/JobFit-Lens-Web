@@ -1,0 +1,14 @@
+# 密钥：绝不能入库
+.env
+*.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 运行产物
+.cache/
+*.log

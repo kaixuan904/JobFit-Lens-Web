@@ -1,0 +1,8 @@
+streamlit>=1.36,<2
+pymupdf>=1.24
+python-docx>=1.1
+
+# Optional: restruct-cv improves PDF/DOCX line reconstruction.
+# It pulls in onnxruntime and tokenizers (large). Without it,
+# parse_resume falls back to PyMuPDF / python-docx automatically.
+# restruct-cv>=0.3
